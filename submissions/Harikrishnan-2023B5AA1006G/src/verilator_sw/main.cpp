@@ -130,7 +130,7 @@ int main(int argc, char** argv) {
     
     
     // Fast forward to 59 seconds
-    wait_cycles(dut, tickcount, 58);
+    wait_cycles(dut, tickcount, 58-28);
     std::cout << "  ";
     
     std::cout << "Counting past 59 seconds to see rollover..." << std::endl;
